@@ -22,12 +22,9 @@ This project is a static clone of the official Salesforce homepage. It replicate
 - Fully static website structure
 - Mimics layout of Salesforce landing page
 - Desktop-only view (not mobile responsive)
-  
-## 📁 Folder Structure 
-
-/salesforce-clone │ ├── index.html ├── about.html ├── login.html ├── try.html ├── feedback.html │ ├── style.css ├── contactUs.css ├── login.css ├── feedback.css
 
 ## 🙋‍♂️ Author 
+
 - **Shivansh Gupta**
 - GitHub: [@Utsav017](https://github.com/Utsav017)
 - LinkedIn: [Utsav Gupta](https://www.linkedin.com/in/shivansh-gupta017)
