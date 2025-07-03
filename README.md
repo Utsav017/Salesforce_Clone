@@ -27,7 +27,7 @@ This project is a static clone of the official Salesforce homepage. It replicate
 
 - **Shivansh Gupta**
 - GitHub: [@Utsav017](https://github.com/Utsav017)
-- LinkedIn: [Utsav Gupta](https://www.linkedin.com/in/shivansh-gupta017)
+- LinkedIn: [Shivansh Gupta](https://www.linkedin.com/in/shivansh-gupta017)
 
 ---
 
