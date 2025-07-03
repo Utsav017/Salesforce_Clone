@@ -10,7 +10,7 @@ This project is a static clone of the official Salesforce homepage. It replicate
 ## 🎯 Purpose 
 
 - Created as a part of my **college web development assignment**
-- Followed along with a tutorial from the [**College Wala** YouTube channel](https://www.youtube.com/@collegewala)
+- Followed along with a tutorial from the [**College Wala** YouTube channel](https://www.youtube.com/@CollegeWallahbyPW)
 - Practice and apply concepts of HTML & CSS
   
 ## 🛠️ Technologies Used
