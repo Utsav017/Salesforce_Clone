@@ -1,0 +1,76 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c1e7fe;
+  padding: 20px;
+}
+/* Form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: lighter;
+}
+/* Select dropdown */
+select,
+textarea,
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+/* Star rating */
+#rating {
+  display: flex;
+  gap: 10px;
+}
+/* Customize star icons or use other visual representation */
+#rating input[type="radio"] {
+  display: none;
+}
+#rating label {
+  cursor: pointer;
+}
+/* Button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
+/* Powered by text */
+p {
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}

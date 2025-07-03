@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <h1>How are we doing?</h1>
+    <form>
+        <label for="feedback-type">What kind of feedback do you have?</label>
+        <select id="feedback-type" name="feedback-type">
+            <option value="positive">Positive</option>
+            <option value="negative">Negative</option>
+            <option value="neutral">Neutral</option>
+        </select>
+
+        <label for="feedback-text">What's on your mind?</label>
+        <textarea id="feedback-text" name="feedback-text" rows="4"></textarea>
+
+        <label for="rating">How would you rate our site?</label>
+        <div id="rating">
+            <!-- You can use star icons or any other visual representation -->
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">
+                ☆☆☆☆☆
+            </label>
+            <!-- Repeat for other stars -->
+        </div>
+
+        <label for="recommendation">How likely are you to recommend our site?</label>
+        <select id="recommendation" name="recommendation">
+            <option value="0">Not likely</option>
+            <option value="10">Very likely</option>
+            <!-- You can adjust the range as needed -->
+        </select>
+
+        <label for="email">Email (Optional)</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+
+        <button type="submit">SEND FEEDBACK</button>
+    </form>
+    <p>Powered by Salesforce Service Cloud</p>
+</body>
+</html>
